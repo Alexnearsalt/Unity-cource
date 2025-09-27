@@ -122,6 +122,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rotationSpeed: 50
-  coordinateX: 0
+  coordinateX: 1
   coordinateY: 1
-  coordinateZ: 0
+  coordinateZ: 1

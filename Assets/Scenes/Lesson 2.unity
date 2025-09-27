@@ -153,9 +153,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   parent: {fileID: 1078116921}
   cubePrefab: {fileID: 4282594099628943548, guid: aad357decf177f84f9c830cd922389e6, type: 3}
-  rotationSpeed: 30
-  counterClockvise: 0
-  numberOfObjects: 8
+  rotationSpeed: 50
+  counterClockvise: 1
+  numberOfObjects: 4
   circleRadius: 5
 --- !u!136 &1078116918
 CapsuleCollider:
