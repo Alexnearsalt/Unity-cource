@@ -31,7 +31,7 @@ public class DiceSideCheck : MonoBehaviour
 
     public void AddSideResult()
     {
-        gameRuntime.AddScore(currentScore);
+        if (_isStatic) gameRuntime.AddScore(currentScore);
         
     }
     private bool IsDiceStopped()
