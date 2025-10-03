@@ -1,16 +1,17 @@
+using System.Threading;
 using UnityEngine;
 
 public class DiceSideTrigger : MonoBehaviour
 {
+    [SerializeField]private int _side;
     private DiceSideCheck _diceSideCheck;
-    private int _side;
 
     private void Start()
     {
         _diceSideCheck = GetComponentInParent<DiceSideCheck>();
     }
 
-    private void OnTriggerStay(Collider other)
+    private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Ground"))
         {

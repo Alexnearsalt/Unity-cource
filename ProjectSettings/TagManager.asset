@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Board
   - Ground
+  - d6
   layers:
   - Default
   - TransparentFX

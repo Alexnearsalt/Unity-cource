@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using UnityEngine;
 
 public class DiceSideCheck : MonoBehaviour
@@ -6,8 +7,8 @@ public class DiceSideCheck : MonoBehaviour
     [SerializeField] private GameRuntime gameRuntime;
     [SerializeField] private float movementThreshold = 0.01f;
     [SerializeField] private float stopDelay = 1f;
+    [SerializeField]private int currentScore = 0;
     private Rigidbody _rb;
-    private int currentScore = 0;
     private bool _isStatic;
     
     private void Awake()
@@ -26,13 +27,14 @@ public class DiceSideCheck : MonoBehaviour
 
     public void WriteResult(int score)
     {
-        if (_isStatic) currentScore = score;
+        gameRuntime.AddScore(-currentScore);
+        currentScore = score;
+        gameRuntime.AddScore(currentScore);
     }
 
     public void AddSideResult()
     {
-        if (_isStatic) gameRuntime.AddScore(currentScore);
-        
+        gameRuntime.AddScore(currentScore);
     }
     private bool IsDiceStopped()
     {

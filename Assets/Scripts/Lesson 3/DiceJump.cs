@@ -25,7 +25,6 @@ public class DiceJump : MonoBehaviour
 
     public void Jump()
     {
-        _diceSideCheck.AddSideResult();
         ApplyRandomForce();
         ApplyRandomTorque();
     }

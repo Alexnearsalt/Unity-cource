@@ -50,9 +50,11 @@
     <Compile Include="Assets\Scripts\Lesson 2\CubeMovement.cs" />
     <Compile Include="Assets\Scripts\Lesson 3\DiceSideCheck.cs" />
     <Compile Include="Assets\Scripts\Lesson 3\DiceJump.cs" />
+    <Compile Include="Assets\Scripts\Lesson 4\Ui\InputControl.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\Scripts\Lesson 3\InputController.cs" />
     <Compile Include="Assets\Scripts\Lesson 2\CubeCreate.cs" />
+    <Compile Include="Assets\Scripts\Lesson 4\Ui\TextControl.cs" />
     <Compile Include="Assets\Scripts\Lesson 3\GameRuntime.cs" />
     <Compile Include="Assets\Controls.cs" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

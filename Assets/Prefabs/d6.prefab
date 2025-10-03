@@ -66,6 +66,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9412e943ff4f9b438eafacb092fc39c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _side: 0
 --- !u!1 &6176924762632799047
 GameObject:
   m_ObjectHideFlags: 0
@@ -132,6 +133,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9412e943ff4f9b438eafacb092fc39c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _side: 0
 --- !u!1 &6249645447842935610
 GameObject:
   m_ObjectHideFlags: 0
@@ -198,6 +200,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9412e943ff4f9b438eafacb092fc39c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _side: 0
 --- !u!1 &6385749766797605456
 GameObject:
   m_ObjectHideFlags: 0
@@ -264,6 +267,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9412e943ff4f9b438eafacb092fc39c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _side: 0
 --- !u!1 &7526611959419942145
 GameObject:
   m_ObjectHideFlags: 0
@@ -281,7 +285,7 @@ GameObject:
   - component: {fileID: 3009639747186998657}
   m_Layer: 0
   m_Name: d6
-  m_TagString: Untagged
+  m_TagString: d6
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -424,7 +428,6 @@ MonoBehaviour:
   maxForce: 10
   minTorque: 5
   maxTorque: 10
-  stopThreshold: 0.1
 --- !u!114 &3009639747186998657
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -440,6 +443,7 @@ MonoBehaviour:
   gameRuntime: {fileID: 0}
   movementThreshold: 0.001
   stopDelay: 1
+  currentScore: 0
 --- !u!1 &8316477883830475975
 GameObject:
   m_ObjectHideFlags: 0
@@ -506,6 +510,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9412e943ff4f9b438eafacb092fc39c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _side: 0
 --- !u!1 &8487604217780545022
 GameObject:
   m_ObjectHideFlags: 0
@@ -572,3 +577,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9412e943ff4f9b438eafacb092fc39c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _side: 0
